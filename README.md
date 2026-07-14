@@ -1,156 +1,129 @@
-<h1 align="center">
-  Jorch Lab — Autonomous DeFi Engineering
-</h1>
+# 👨‍💻 Jorch — Full-Stack Automation & DeFi Engineer
 
-<h4 align="center">Jorge Darío Aranda · San Juan Bautista, Paraguay</h4>
+> *"Automatizo negocios, ejecuto en mercados financieros y construyo agentes de IA que trabajan 24/7."*
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Solana-Mainnet-9945FF?style=flat&logo=solana&logoColor=white" />
-  <img src="https://img.shields.io/badge/Rust-Production-orange?style=flat&logo=rust&logoColor=white" />
-  <img src="https://img.shields.io/badge/Claude_Code-MCP-black?style=flat&logo=anthropic&logoColor=white" />
-  <img src="https://img.shields.io/badge/CrewAI-Agent_Orchestrator-6C5CE7?style=flat&logo=openai&logoColor=white" />
-  <img src="https://img.shields.io/badge/n8n-Automation-EA4B71?style=flat&logo=n8n&logoColor=white" />
-  <img src="https://img.shields.io/badge/Apify-Web_Scraping-FF6B35?style=flat&logo=apache&logoColor=white" />
-  <img src="https://img.shields.io/badge/VPS-24%2F7-green?style=flat&logo=digitalocean&logoColor=white" />
-</p>
+🌐 **[jorch-lab.top](https://jorch-lab.top)**
 
 ---
 
-> *"No construyo demos. Construyo bots que operan solos."*
+## 🎯 Perfil Profesional
 
-Ingeniero de sistemas autónomos. Diseño, programo y despliego agentes que corren 24/7 en Solana — liquidaciones, fees permissionless, arbitraje y MEV. Todo KISS. Todo Rust/Python. Todo con memoria.
+Ingeniero de automatización y sistemas multi-agente. Construyo pipelines end-to-end: desde el scraping y enriquecimiento de datos hasta la ejecución financiera on-chain y la conversión comercial. Mis sistemas corren 24/7 en VPS con monitoreo en tiempo real.
 
----
-
-## 🤖 IA & Agentes Autónomos
-
-**No solo uso IA — construyo sistemas donde la IA trabaja para mí.**
-
-| Capacidad | Stack | Qué hace |
-|-----------|-------|----------|
-| **Orquestación Multi-Agente** | CrewAI + DeepSeek | Mesa Directiva de agentes que genera blueprints técnicos |
-| **Sub-Agentes Especializados** | Bash + Python | Coder, Reviewer, Researcher, Reverser, Error Memory |
-| **Claude Code CLI** | Anthropic API + MCP | Desarrollo acelerado con herramientas y skills personalizadas |
-| **MCP Servers** | n8n, Apify, PostgreSQL | Tools de scraping, DB queries, y automatización directa desde el CLI |
-| **Skills System** | Bash hooks + settings.json | Skills verificables: code-review, verify, graphify, deep-research |
-| **Web Scraping Inteligente** | Apify Actors + Crawlee | Extracción de leads, protocolos DeFi, documentación on-chain |
-| **Pipeline Autocorrector** | Aider + Error Memory | 6 fases: consulta → código → detección → autocorrección → deploy |
-| **Memoria de Errores** | JSON + Python | Previene reintentos de enfoques fallidos. Ahorra tokens. |
-| **Notificaciones Telegram** | Bot API + Bash | Alertas en tiempo real de cada hito del pipeline |
-
-> *"El agente tira la idea, Claude Code construye el blueprint, el Coder genera los archivos, el Reviewer audita, y Telegram te avisa cuando terminó. Ese es el sueño."*
+**Abierto a:**
+- 🏢 Posiciones **Full-Stack / Backend / Automation Engineer** en empresas remotas (NoDesk, Remotive, RemoteOK)
+- 💼 **Bounties y micro-trabajo** (Gitcoin, Superteam, Layer3, Bountycaster, Upwork)
+- 🤝 **Colaboraciones** en DeFi, trading algorítmico, SaaS B2B y automatización con IA
 
 ---
 
-## 🧠 Proyectos Activos
+## 🧰 Stack Técnico
 
-<table>
-<tr>
-<td width="50%">
-
-### 🦅 Flash-Crash-Predator
-**Liquidador Atómico Kamino V2**
-
-- Flash Loan + liquidate + redeem en 1 tx atómica
-- Jito Bundles para subasta MEV
-- Tip dinámico en 2 rondas (conservador → agresivo)
-- WebSocket listener + Reserve Cache pre-load
-- Stack: `Rust` `Solana` `Jito` `Jupiter API`
-
-</td>
-<td width="50%">
-
-### 🪵 Tríada Barrendero OpenBook
-**3 bots permissionless · Capital $0**
-
-- **v1:** consumeEvents Serum V3 (monitor)
-- **Settle:** settleFunds masivo — fondos abandonados
-- **v2:** sweepFees + consumeEvents OpenBook V2
-- 750k+ mercados escaneables
-- Stack: `Python` `solana-py` `solders`
-
-</td>
-</tr>
-<tr>
-<td>
-
-### 🧠 Jorch Lab Agent System
-**Orquestador autónomo de código**
-
-- Mesa Directiva: CrewAI + DeepSeek
-- 5 sub-agentes especializados
-- Pipeline 6 fases con autocorrección
-- Memoria de errores anti-loop
-- Stack: `Bash` `CrewAI` `DeepSeek` `Aider`
-
-</td>
-<td>
-
-### 🛡️ Flash-Crash-Mitigator
-**Monitor DeFi + Auto-Repago**
-
-- Health Factor Kamino Finance
-- Auto-repay cuando HF < 1.2
-- Docker + PostgreSQL + Tailscale
-- Stack: `Rust` `Docker` `Solana`
-
-</td>
-</tr>
-</table>
+| Capa | Tecnologías |
+|------|-------------|
+| **Lenguajes** | Python · TypeScript · Rust · MQL5 · Bash · JavaScript |
+| **Backend** | Node.js/Express · FastAPI · Next.js 14/16 · PostgreSQL · SQLite · Redis |
+| **Blockchain** | Solana · Rust/Anchor · Jito · Helius · Kamino · Web3.js · SPL Token |
+| **IA / Agentes** | Claude API · DeepSeek · Groq · CrewAI · ChromaDB · AgentDB · n8n |
+| **Scraping** | Playwright · Scrapling · Apify · Telethon · Google Maps API |
+| **Trading** | MetaTrader 5 · MQL5 · Python backtesting · ONNX ML · Pine Script |
+| **Infra** | Docker · VPS (DigitalOcean/Hyonix) · Tailscale Mesh VPN · systemd |
+| **Mensajería** | WhatsApp (Baileys) · Telegram Bot API · Twilio · SendGrid · Resend |
 
 ---
 
-## ⚡ Stack Técnico
+## 📂 Proyectos por Vertical
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" />
-  <img src="https://img.shields.io/badge/Solana-9945FF?style=for-the-badge&logo=solana&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
-</p>
+### ⛓️ Solana / Web3 / DeFi
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Claude_Code-CLI-9775FF?style=for-the-badge&logo=anthropic&logoColor=white" />
-  <img src="https://img.shields.io/badge/MCP-Tools-FF6B35?style=for-the-badge&logo=apache&logoColor=white" />
-  <img src="https://img.shields.io/badge/CrewAI-Agents-6C5CE7?style=for-the-badge&logo=openai&logoColor=white" />
-  <img src="https://img.shields.io/badge/Apify-Scraping-FF8C00?style=for-the-badge&logo=apache&logoColor=white" />
-  <img src="https://img.shields.io/badge/n8n-Automation-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" />
-  <img src="https://img.shields.io/badge/Aider-AI_Coding-10A37F?style=for-the-badge&logo=openai&logoColor=white" />
-</p>
+| Proyecto | Descripción | Stack | |
+|----------|-------------|-------|---|
+| **[🛡️ Flash Crash Mitigator](https://github.com/Jorchspace/flash-crash-mitigator)** | Bot de protección DeFi: monitorea posición Kamino Finance 24/7, auto-repago cuando Health Factor < 1.2. Eventos a PostgreSQL. Docker + VPS. | Rust · Solana · PostgreSQL · Docker | 🔓 Público |
+| Flash Crash Predator | Escáner proactivo de liquidaciones Kamino. Procesamiento paralelo con `rayon` sobre miles de cuentas on-chain. Offsets verificados empíricamente. | Rust · Solana · Kamino · Rayon | 🔒 Privado |
+| Solana Bots Arsenal | Plan maestro 8 fases MEV: Barrendero OpenBook, Arqueología de Contratos Abandonados, Liquidaciones Flash Loan, Predator MEV, Salvamento Rug Pulls, Peg Arbitrage, Fat Finger Sniping, Oracle Arbitrage | Python · Rust · Solana · Jito | 🔒 Privado |
+| Solana Hybrid Engine | Bot HFT dual: Hunter (token sniping <60s, filtros RugCheck, estrategia 80/20) + Guardian (liquidaciones DeFi con flash loans). Capital inicial $150 USD | Rust · Anchor · Jito · Helius | 🔒 Privado |
+| **[GoldHunter](https://github.com/Jorchspace/goldhunter-medo)** | Plataforma gamificada "Explore-to-Learn & Earn" con cNFTs en Solana. Conecta marcas con audiencia física usando IA generativa. Hackathon Build With MeDo | React Native · Solana · Claude AI | 🔒 Privado |
 
-**Lo que hago todos los días:**
-- CPI (Cross-Program Invocation) en Solana — instrucciones permissionless
-- Flash Loans atómicos con Jito Bundles y tips dinámicos
-- Parsing de cuentas on-chain (offsets binarios, discriminators, PDAs)
-- WebSocket listeners + polling para detección en tiempo real
-- Sistemas autónomos con autocorrección y memoria de errores
-- Orquestación de agentes LLM (CrewAI + DeepSeek + Claude Code)
-- MCP Servers personalizados (n8n, Apify, PostgreSQL) para desarrollo asistido
-- Web scraping masivo con Apify Actors + Crawlee para inteligencia de mercado
+### 🤖 SaaS & Automatización B2B
+
+| Proyecto | Descripción | Stack | |
+|----------|-------------|-------|---|
+| **[🧠 Jarvis Command Center](https://github.com/Jorchspace/jarvis-command-center)** | Dashboard ejecutivo multi-proyecto unificado. WhatsApp Inbox multi-agente, SMM Pipeline, Google Maps Scraper, CRM leads, Skills Engine, pagos LemonSqueezy. Corre en Docker 24/7. | Next.js 14 · Express · PostgreSQL · Baileys · Docker | 🔓 Público |
+| Bridge AI Engine | Pipeline B2B 9 fases 100% automatizado: scraping Google Maps → enriquecimiento IA → landing automática → outreach email → facturación → firma contratos. | Python · Apify · DeepSeek · Resend · Docuseal | 🔒 Privado |
+| AI Business Activation Engine | Ecosistema SaaS 6 agentes IA que convierten búsquedas Google Maps en clientes para negocios locales. Blueprint Gemini XPRIZE Edition. Nichos: clínicas estéticas, dentales, hoteles boutique. $79-99/mes. | Python · Claude AI · n8n · Next.js · PostgreSQL | 📋 Blueprint |
+| Landing Factory | Fábrica automatizada de landing pages: pipeline batch, CMS multi-tenant, generación por IA, analytics dashboard. Blueprint técnico completo. | Next.js · Supabase · LemonSqueezy · n8n | 📋 Blueprint |
+
+### 🏦 Trading Algorítmico & Mercados
+
+| Proyecto | Descripción | Stack | |
+|----------|-------------|-------|---|
+| GoldTraderEA | Sistema multi-estrategia XAUUSD. 14 estrategias institucionales ponderadas con motor de fusión. Confirmación 7+ requerida. Backtest: 287% return, 14.2% DD, 2.8 profit factor. | MQL5 · MetaTrader 5 | 🔒 Privado |
+| Profitable EA Repository | Colección de EAs con ML: scalping XAUUSD/BTC/stocks, ONNX LSTM para predicción, backtesting Python, Pine Script TradingView. | MQL5 · Python · ONNX · TensorFlow | 🔒 Privado |
+| Telegram → MT5 Bridge | Copy-trading automatizado: monitorea canales Telegram 24/7, parsea señales XAUUSD, ejecuta en MT5 con split de órdenes + trailing escalonado. Protección drawdown diario 3%. | Python · Telethon · MQL5 | 🔒 Privado |
+| Bots Trading Arsenal | 35+ Expert Advisors catalogados y optimizados: GoldenHook, Monarca Fx, FullScalper, ProfitMachine. Plan maestro para canal VIP de señales con pasarela de pago. | MQL5 · MetaTrader 5 | 🔒 Privado |
+| **[AItradingFX](https://jorch-lab.top)** | Landing + RAG Chatbot + Market Dashboard para trading. KB local ChromaDB con análisis técnico/fundamental. Bot Telegram VIP + EA exclusivo para afiliados Exness. | FastAPI · ChromaDB · Next.js 16 · Docker | 🔒 Privado |
+
+### 🏠 Real Estate Tech
+
+| Proyecto | Descripción | Stack | |
+|----------|-------------|-------|---|
+| WholeSmartEngine | Pipeline wholesale inmobiliario USA: scraping Zillow/Facebook FSBO → scoring IA de urgencia del vendedor → skip tracing → outreach SMS/email → contratos Docuseal → pagos ACH/Wire (UglyCash). Regla del 70%. | Python · Node.js · PostgreSQL · Apify · Docuseal | 🔒 Privado |
+| Automatic Wholesaling | Motor autónomo de wholesaling Houston, TX. 6-stage pipeline: Scout→Normalize→Score→Trace→Outreach→Blast. HCAD integration, skip tracing, secuencias SMS + email. | Python · Celery · Playwright · Claude API · Twilio | 📋 Blueprint |
+
+### 📱 Bots, Mensajería & Aplicaciones
+
+| Proyecto | Descripción | Stack | |
+|----------|-------------|-------|---|
+| **[SMM + Blink Bot](https://github.com/Jorchspace/smm-blink-bot)** | Panel SMM vía Telegram con Auto-Match Engine: filtra 1,100+ servicios SMMWiz y asigna el más barato con margen ≥3x. Precios fijos. Pagos crypto (TRC20/BEP20/SOL) + LemonSqueezy. | Node.js · TypeScript · grammy · Drizzle ORM | 🔓 Público |
+| AsistenteLeña | Bot Telegram para negocio real de venta de leña: pedidos paso a paso, optimización de rutas GPS (TSP Nearest Neighbor), geocodificación, panel admin, informes de ventas. | Python · Groq AI · SQLite · Nominatim | 🔒 Privado |
+| SMM Dashboard | Panel de control web "Potencia tus Redes": métricas de órdenes, ingresos, profit, márgenes. WhatsApp Inbox multi-agente en vivo + mapa de clientes. | Next.js 14 · Express · Baileys · Leaflet | 🔒 Privado |
+| Leads RAGChat | Dashboard de prospección: scraping Google Maps → clasificación IA (DeepSeek) → RAG chat → pipeline de campañas. 3 tabs: Scrapling, Campaña, Inbox WhatsApp. | Next.js 14 · Playwright · Scrapling · DeepSeek | 🔒 Privado |
+
+### ⚖️ LegalTech & Proyectos Especiales
+
+| Proyecto | Descripción | Stack | |
+|----------|-------------|-------|---|
+| LegalPagare | Plataforma web para Estudio Jurídico (Quito, Ecuador): registro inteligente de títulos valores, validación de viabilidad, generación automática de demandas .docx. Portal clientes + dashboard abogados. | Next.js 16 · Prisma · PostgreSQL · Anthropic SDK · Groq | 🔒 Privado |
+| SkyStitcher | Motor de "Hacker Fares" aéreos: interlineado virtual con algoritmo de optimización precio+tiempo+geo. Monetización affiliate-first (Travelpayouts/Kiwi, CPA 1.2-2%). | Python · Scrapling · Next.js · PostgreSQL | 📋 Blueprint |
+| Zona Oculta | Canal faceless de TikTok automatizado: pipeline con IA (guion → voz → video → subtítulos → publicación). Orquestador personalizado con aprobación vía Telegram. | Python · Streamlit · MoviePy · Edge TTS · Docker | 🔒 Privado |
 
 ---
 
-## 🔬 Próximos Proyectos (Plan Maestro 8 Fases)
+## 🔥 Proyectos Destacados (Código Abierto)
 
-| # | Proyecto | Estrategia | Stack |
-|---|----------|------------|-------|
-| 4 | Predator Pro Max | Arbitraje atómico cross-DEX con Jito | Rust |
-| 5 | Rug Pull Salvage | Extraer liquidez de pools abandonadas | Python |
-| 6 | Peg Arbitrage | wSOL↔SOL spread en congestión | Rust |
-| 7 | Fat Finger Sniping | Capturar errores humanos en libros de órdenes | Rust |
-| 8 | Oracle Arbitrage | Ventana de milisegundos Pyth vs CEX | Rust |
+### 🧠 [Jarvis Command Center](https://github.com/Jorchspace/jarvis-command-center)
+Dashboard ejecutivo que unifica 4 proyectos bajo un solo panel. WhatsApp Inbox multi-agente con Baileys manejando conversaciones reales de clientes. Pipeline SMM con auto-match inteligente. Google Maps scraper para prospección de leads locales. PostgreSQL + Redis + Docker Compose. **Código público.**
+
+### 🛡️ [Flash Crash Mitigator](https://github.com/Jorchspace/flash-crash-mitigator)
+Bot DeFi en Rust puro que monitorea posiciones en Kamino Finance (Solana). Extrae health factor directamente de bytes on-chain y ejecuta auto-repago cuando HF < 1.2 para evitar liquidación. Eventos a PostgreSQL con tracing estructurado. **Código público.**
 
 ---
 
-<p align="center">
-  <img height="150em" src="https://github-readme-stats.vercel.app/api?username=Jorchspace&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" />
-  <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jorchspace&layout=compact&theme=tokyonight&hide=html,css&langs_count=6" />
-</p>
+## 📊 El Ecosistema en Números
+
+| Métrica | Valor |
+|---------|-------|
+| **Proyectos totales** | 22+ |
+| **En producción activa** | 8 |
+| **Código público** | 4 repos |
+| **Verticales técnicas** | 5 (Web3 · SaaS · Trading · Real Estate · LegalTech) |
+| **APIs externas integradas** | 15+ |
+| **Lenguajes en uso activo** | Python, TypeScript, Rust, MQL5, Bash |
 
 ---
 
-<p align="center">
-  <i>Construyendo en WSL2 · Deployando en DigitalOcean VPS · Conectado por Tailscale</i>
-</p>
+## 🔒 Sobre el Código Privado
+
+La mayoría de mis proyectos son **privados por estrategia comercial** — sistemas de trading con alpha financiero, bots MEV en Solana, y pipelines B2B con ventaja competitiva. El código está disponible para discusión técnica en entrevistas y procesos de selección. Lo que es público (Jarvis CC, Flash Crash Mitigator, SMM+Blink) representa mi estándar de calidad.
+
+---
+
+## 📫 Contacto
+
+- 🐙 **GitHub**: [github.com/Jorchspace](https://github.com/Jorchspace)
+- 🌐 **Web / Portfolio**: **[jorch-lab.top](https://jorch-lab.top)**
+- 📧 **Email**: Disponible para recruiters, colaboraciones y bounties
+
+---
+
+> *"No busco trabajo — busco problemas interesantes que resolver. Si necesitás alguien que entienda el stack completo, desde el scraper hasta el dashboard, desde el smart contract hasta el bot de Telegram, hablemos."*
