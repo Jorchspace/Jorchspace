@@ -67,13 +67,19 @@ I am an automation and systems architect specializing in end-to-end data and exe
 | **🛒 Bots Trading Arsenal** | Collection of 35+ optimized Expert Advisors (including GoldenHook, Monarca Fx, FullScalper, ProfitMachine) tied to a premium signal channel with automated gateways. | MQL5 · MetaTrader 5 | **🔒 Private** |
 | **📊 AItradingFX** | Web dashboard + RAG chatbot for financial markets. Local ChromaDB knowledge base loaded with technical/fundamental indicators. Telegram bot integrated with Exness affiliate flows. | FastAPI · ChromaDB · Next.js 16 · Docker | **🔒 Private** |
 
-### 🏠 Real Estate & Legal Tech
+### ⚖️ Legal Tech & Document Automation
+
+| Project | Description | Stack | Status |
+| :--- | :--- | :--- | :--- |
+| **🏛️ :Priori — LandingLaw** | Full-stack legal platform for a Paraguayan law firm. **Landing page** with dark theme, video parallax, chatbot FAQ (TF-IDF engine, zero-cost for 90% of queries), and SEO-optimized practice area pages. **Client dashboard** for uploading promissory notes/checks → Claude AI validates document viability → collects debtor data → tracks case status. **Omnia Escritos** integrated module: AI-powered legal document factory with 15-stage judicial pipeline, automatic liquidation calculator (BCP interest rates), HTML preview before .docx generation, correction chat that learns patterns, CSJ court portal batch submission with PM2 cron scheduling. | Next.js 16 · Prisma · SQLite · Anthropic Claude · Python docxtpl · Tailwind v4 · Nginx · PM2 | **🔒 Private** |
+| **📝 Omnia Fabrica** | Standalone legal document generation engine. **50+ .docx templates** covering 15 stages of executive judgment (Paraguay). Python docxtpl marker replacement. Gemini Vision OCR for automatic promissory note data extraction. CSJ court portal integration (apps.csj.gov.py) with session caching. BCP interest rate calculator (2020-2025). Kanban board visualization of the complete judicial pipeline. | React 18 + Vite · Express · SQLite · Python docxtpl · Gemini Vision | **🔒 Private** |
+
+### 🏠 Real Estate
 
 | Project | Description | Stack | Status |
 | :--- | :--- | :--- | :--- |
 | **🏠 WholeSmartEngine** | Real estate wholesale pipeline for US markets. Scrapes Zillow/Facebook FSBO → AI seller urgency scoring → skip tracing → SMS/email outreach → Docuseal → ACH/Wire billing. | Python · Node.js · PostgreSQL · Apify · Docuseal | **🔒 Private** |
 | **🚜 Automatic Wholesaling** | Autonomous wholesaling engine for Houston, TX. A 6-stage pipeline (Scout → Normalize → Score → Trace → Outreach → Blast) integrated with HCAD records and Twilio SMS. | Python · Celery · Playwright · Claude API · Twilio | **📋 Blueprint** |
-| **⚖️ LegalPagare** | Document automation platform for law firms. Features structured promissory note validation, claim feasibility analysis, and dynamic court demand generation (.docx) via Anthropic API. | Next.js 16 · Prisma · PostgreSQL · Anthropic · Groq | **🔒 Private** |
 
 ---
 
@@ -96,11 +102,11 @@ A high-frequency safety system written in pure Rust for Solana DeFi:
 
 ## 📊 The Ecosystem in Numbers
 
-* **Total Active Projects:** 22+
+* **Total Active Projects:** 23+
 * **Active Production Deployments:** 8
 * **Open Source Repositories:** 4
 * **Target Tech Verticals:** 5 (Web3 · Enterprise SaaS · Algorithmic Trading · PropTech · LegalTech)
-* **External APIs / Protocol integrations:** 15+
+* **External APIs / Protocol integrations:** 17+
 
 ---
 
